@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<Button
+    android:layout_width="150dp"
+    android:layout_height="75dp"
+        android:id="@+id/call"
+        android:text="call max"/>
+        <Button
+    android:layout_width="150dp"
+    android:layout_height="75dp"
+        android:id="@+id/sms"
+        android:text="send max a message"
+    android:layout_below="@id/call"/>
+        <Button
+    android:layout_width="150dp"
+    android:layout_height="75dp"
+        android:id="@+id/mail"
+        android:text="mail max"
+        android:layout_below="@id/sms"/>
+        <Button
+    android:layout_width="150dp"
+    android:layout_height="75dp"
+        android:id="@+id/forEhud"
+        android:text="for ehud"
+        android:layout_below="@id/mail"/>
+</RelativeLayout>
